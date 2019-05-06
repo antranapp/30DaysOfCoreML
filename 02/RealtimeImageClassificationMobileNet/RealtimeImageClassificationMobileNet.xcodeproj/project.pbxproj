@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F62B3EE32280CA0800DAAD15 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F62B3EE22280CA0800DAAD15 /* MobileNet.mlmodel */; };
+		F6BF5D75228019DE006258AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF5D74228019DE006258AF /* AppDelegate.swift */; };
+		F6BF5D77228019DE006258AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF5D76228019DE006258AF /* ViewController.swift */; };
+		F6BF5D7A228019DE006258AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BF5D78228019DE006258AF /* Main.storyboard */; };
+		F6BF5D7C228019DF006258AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BF5D7B228019DF006258AF /* Assets.xcassets */; };
+		F6BF5D7F228019DF006258AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6BF5D7D228019DF006258AF /* LaunchScreen.storyboard */; };
+		F6BF5D8A228019DF006258AF /* RealtimeImageClassificationMobileNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF5D89228019DF006258AF /* RealtimeImageClassificationMobileNetTests.swift */; };
+		F6BF5D95228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BF5D94228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6BF5D86228019DF006258AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BF5D69228019DE006258AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BF5D70228019DE006258AF;
+			remoteInfo = RealtimeImageClassificationMobileNet;
+		};
+		F6BF5D91228019DF006258AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6BF5D69228019DE006258AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6BF5D70228019DE006258AF;
+			remoteInfo = RealtimeImageClassificationMobileNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F62B3EE22280CA0800DAAD15 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = ../../../../../../MobileNet.mlmodel; sourceTree = "<group>"; };
+		F6BF5D71228019DE006258AF /* RealtimeImageClassificationMobileNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimeImageClassificationMobileNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF5D74228019DE006258AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6BF5D76228019DE006258AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6BF5D79228019DE006258AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6BF5D7B228019DF006258AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6BF5D7E228019DF006258AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6BF5D80228019DF006258AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BF5D85228019DF006258AF /* RealtimeImageClassificationMobileNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtimeImageClassificationMobileNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF5D89228019DF006258AF /* RealtimeImageClassificationMobileNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeImageClassificationMobileNetTests.swift; sourceTree = "<group>"; };
+		F6BF5D8B228019DF006258AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6BF5D90228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealtimeImageClassificationMobileNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6BF5D94228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeImageClassificationMobileNetUITests.swift; sourceTree = "<group>"; };
+		F6BF5D96228019DF006258AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6BF5D6E228019DE006258AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF5D82228019DF006258AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF5D8D228019DF006258AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6BF5D68228019DE006258AF = {
+			isa = PBXGroup;
+			children = (
+				F6BF5D73228019DE006258AF /* RealtimeImageClassificationMobileNet */,
+				F6BF5D88228019DF006258AF /* RealtimeImageClassificationMobileNetTests */,
+				F6BF5D93228019DF006258AF /* RealtimeImageClassificationMobileNetUITests */,
+				F6BF5D72228019DE006258AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6BF5D72228019DE006258AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF5D71228019DE006258AF /* RealtimeImageClassificationMobileNet.app */,
+				F6BF5D85228019DF006258AF /* RealtimeImageClassificationMobileNetTests.xctest */,
+				F6BF5D90228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BF5D73228019DE006258AF /* RealtimeImageClassificationMobileNet */ = {
+			isa = PBXGroup;
+			children = (
+				F62B3EE22280CA0800DAAD15 /* MobileNet.mlmodel */,
+				F6BF5D74228019DE006258AF /* AppDelegate.swift */,
+				F6BF5D76228019DE006258AF /* ViewController.swift */,
+				F6BF5D78228019DE006258AF /* Main.storyboard */,
+				F6BF5D7B228019DF006258AF /* Assets.xcassets */,
+				F6BF5D7D228019DF006258AF /* LaunchScreen.storyboard */,
+				F6BF5D80228019DF006258AF /* Info.plist */,
+			);
+			path = RealtimeImageClassificationMobileNet;
+			sourceTree = "<group>";
+		};
+		F6BF5D88228019DF006258AF /* RealtimeImageClassificationMobileNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF5D89228019DF006258AF /* RealtimeImageClassificationMobileNetTests.swift */,
+				F6BF5D8B228019DF006258AF /* Info.plist */,
+			);
+			path = RealtimeImageClassificationMobileNetTests;
+			sourceTree = "<group>";
+		};
+		F6BF5D93228019DF006258AF /* RealtimeImageClassificationMobileNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6BF5D94228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.swift */,
+				F6BF5D96228019DF006258AF /* Info.plist */,
+			);
+			path = RealtimeImageClassificationMobileNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6BF5D70228019DE006258AF /* RealtimeImageClassificationMobileNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BF5D99228019DF006258AF /* Build configuration list for PBXNativeTarget "RealtimeImageClassificationMobileNet" */;
+			buildPhases = (
+				F6BF5D6D228019DE006258AF /* Sources */,
+				F6BF5D6E228019DE006258AF /* Frameworks */,
+				F6BF5D6F228019DE006258AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealtimeImageClassificationMobileNet;
+			productName = RealtimeImageClassificationMobileNet;
+			productReference = F6BF5D71228019DE006258AF /* RealtimeImageClassificationMobileNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6BF5D84228019DF006258AF /* RealtimeImageClassificationMobileNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BF5D9C228019DF006258AF /* Build configuration list for PBXNativeTarget "RealtimeImageClassificationMobileNetTests" */;
+			buildPhases = (
+				F6BF5D81228019DF006258AF /* Sources */,
+				F6BF5D82228019DF006258AF /* Frameworks */,
+				F6BF5D83228019DF006258AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BF5D87228019DF006258AF /* PBXTargetDependency */,
+			);
+			name = RealtimeImageClassificationMobileNetTests;
+			productName = RealtimeImageClassificationMobileNetTests;
+			productReference = F6BF5D85228019DF006258AF /* RealtimeImageClassificationMobileNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6BF5D8F228019DF006258AF /* RealtimeImageClassificationMobileNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6BF5D9F228019DF006258AF /* Build configuration list for PBXNativeTarget "RealtimeImageClassificationMobileNetUITests" */;
+			buildPhases = (
+				F6BF5D8C228019DF006258AF /* Sources */,
+				F6BF5D8D228019DF006258AF /* Frameworks */,
+				F6BF5D8E228019DF006258AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6BF5D92228019DF006258AF /* PBXTargetDependency */,
+			);
+			name = RealtimeImageClassificationMobileNetUITests;
+			productName = RealtimeImageClassificationMobileNetUITests;
+			productReference = F6BF5D90228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6BF5D69228019DE006258AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "An Tran";
+				TargetAttributes = {
+					F6BF5D70228019DE006258AF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F6BF5D84228019DF006258AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F6BF5D70228019DE006258AF;
+					};
+					F6BF5D8F228019DF006258AF = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F6BF5D70228019DE006258AF;
+					};
+				};
+			};
+			buildConfigurationList = F6BF5D6C228019DE006258AF /* Build configuration list for PBXProject "RealtimeImageClassificationMobileNet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6BF5D68228019DE006258AF;
+			productRefGroup = F6BF5D72228019DE006258AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6BF5D70228019DE006258AF /* RealtimeImageClassificationMobileNet */,
+				F6BF5D84228019DF006258AF /* RealtimeImageClassificationMobileNetTests */,
+				F6BF5D8F228019DF006258AF /* RealtimeImageClassificationMobileNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6BF5D6F228019DE006258AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF5D7F228019DF006258AF /* LaunchScreen.storyboard in Resources */,
+				F6BF5D7C228019DF006258AF /* Assets.xcassets in Resources */,
+				F6BF5D7A228019DE006258AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF5D83228019DF006258AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF5D8E228019DF006258AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6BF5D6D228019DE006258AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF5D77228019DE006258AF /* ViewController.swift in Sources */,
+				F6BF5D75228019DE006258AF /* AppDelegate.swift in Sources */,
+				F62B3EE32280CA0800DAAD15 /* MobileNet.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF5D81228019DF006258AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF5D8A228019DF006258AF /* RealtimeImageClassificationMobileNetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BF5D8C228019DF006258AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BF5D95228019DF006258AF /* RealtimeImageClassificationMobileNetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6BF5D87228019DF006258AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BF5D70228019DE006258AF /* RealtimeImageClassificationMobileNet */;
+			targetProxy = F6BF5D86228019DF006258AF /* PBXContainerItemProxy */;
+		};
+		F6BF5D92228019DF006258AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6BF5D70228019DE006258AF /* RealtimeImageClassificationMobileNet */;
+			targetProxy = F6BF5D91228019DF006258AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6BF5D78228019DE006258AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BF5D79228019DE006258AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6BF5D7D228019DF006258AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6BF5D7E228019DF006258AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6BF5D97228019DF006258AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6BF5D98228019DF006258AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6BF5D9A228019DF006258AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = RealtimeImageClassificationMobileNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.RealtimeImageClassificationMobileNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6BF5D9B228019DF006258AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = RealtimeImageClassificationMobileNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.RealtimeImageClassificationMobileNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6BF5D9D228019DF006258AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = RealtimeImageClassificationMobileNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.RealtimeImageClassificationMobileNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealtimeImageClassificationMobileNet.app/RealtimeImageClassificationMobileNet";
+			};
+			name = Debug;
+		};
+		F6BF5D9E228019DF006258AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = RealtimeImageClassificationMobileNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.RealtimeImageClassificationMobileNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealtimeImageClassificationMobileNet.app/RealtimeImageClassificationMobileNet";
+			};
+			name = Release;
+		};
+		F6BF5DA0228019DF006258AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = RealtimeImageClassificationMobileNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.RealtimeImageClassificationMobileNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealtimeImageClassificationMobileNet;
+			};
+			name = Debug;
+		};
+		F6BF5DA1228019DF006258AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = RealtimeImageClassificationMobileNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.RealtimeImageClassificationMobileNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RealtimeImageClassificationMobileNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6BF5D6C228019DE006258AF /* Build configuration list for PBXProject "RealtimeImageClassificationMobileNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF5D97228019DF006258AF /* Debug */,
+				F6BF5D98228019DF006258AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BF5D99228019DF006258AF /* Build configuration list for PBXNativeTarget "RealtimeImageClassificationMobileNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF5D9A228019DF006258AF /* Debug */,
+				F6BF5D9B228019DF006258AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BF5D9C228019DF006258AF /* Build configuration list for PBXNativeTarget "RealtimeImageClassificationMobileNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF5D9D228019DF006258AF /* Debug */,
+				F6BF5D9E228019DF006258AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6BF5D9F228019DF006258AF /* Build configuration list for PBXNativeTarget "RealtimeImageClassificationMobileNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6BF5DA0228019DF006258AF /* Debug */,
+				F6BF5DA1228019DF006258AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6BF5D69228019DE006258AF /* Project object */;
+}
