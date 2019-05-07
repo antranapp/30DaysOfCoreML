@@ -23,7 +23,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="gme-JC-evQ"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Select Image"/>
                                 <connections>
                                     <action selector="didTapSelectImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="41F-Yj-fBS"/>
                                 </connections>
