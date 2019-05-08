@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6D0FDD222835B9B007904AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0FDD122835B9B007904AC /* AppDelegate.swift */; };
+		F6D0FDD422835B9B007904AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0FDD322835B9B007904AC /* ViewController.swift */; };
+		F6D0FDD722835B9B007904AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D0FDD522835B9B007904AC /* Main.storyboard */; };
+		F6D0FDD922835B9C007904AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D0FDD822835B9C007904AC /* Assets.xcassets */; };
+		F6D0FDDC22835B9C007904AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D0FDDA22835B9C007904AC /* LaunchScreen.storyboard */; };
+		F6D0FDE722835B9C007904AC /* MNISTDigitRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0FDE622835B9C007904AC /* MNISTDigitRecognitionTests.swift */; };
+		F6D0FDF222835B9C007904AC /* MNISTDigitRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0FDF122835B9C007904AC /* MNISTDigitRecognitionUITests.swift */; };
+		F6D0FE0022835BC9007904AC /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F6D0FDFF22835BC9007904AC /* MNIST.mlmodel */; };
+		F6D0FE0222835C45007904AC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0FE0122835C45007904AC /* DrawView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6D0FDE322835B9C007904AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6D0FDC622835B9B007904AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D0FDCD22835B9B007904AC;
+			remoteInfo = MNISTDigitRecognition;
+		};
+		F6D0FDEE22835B9C007904AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6D0FDC622835B9B007904AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6D0FDCD22835B9B007904AC;
+			remoteInfo = MNISTDigitRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6D0FDCE22835B9B007904AC /* MNISTDigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MNISTDigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D0FDD122835B9B007904AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6D0FDD322835B9B007904AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6D0FDD622835B9B007904AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6D0FDD822835B9C007904AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6D0FDDB22835B9C007904AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6D0FDDD22835B9C007904AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D0FDE222835B9C007904AC /* MNISTDigitRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNISTDigitRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D0FDE622835B9C007904AC /* MNISTDigitRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTDigitRecognitionTests.swift; sourceTree = "<group>"; };
+		F6D0FDE822835B9C007904AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D0FDED22835B9C007904AC /* MNISTDigitRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNISTDigitRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6D0FDF122835B9C007904AC /* MNISTDigitRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNISTDigitRecognitionUITests.swift; sourceTree = "<group>"; };
+		F6D0FDF322835B9C007904AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D0FDFF22835BC9007904AC /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		F6D0FE0122835C45007904AC /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6D0FDCB22835B9B007904AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D0FDDF22835B9C007904AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D0FDEA22835B9C007904AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6D0FDC522835B9B007904AC = {
+			isa = PBXGroup;
+			children = (
+				F6D0FDD022835B9B007904AC /* MNISTDigitRecognition */,
+				F6D0FDE522835B9C007904AC /* MNISTDigitRecognitionTests */,
+				F6D0FDF022835B9C007904AC /* MNISTDigitRecognitionUITests */,
+				F6D0FDCF22835B9B007904AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6D0FDCF22835B9B007904AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0FDCE22835B9B007904AC /* MNISTDigitRecognition.app */,
+				F6D0FDE222835B9C007904AC /* MNISTDigitRecognitionTests.xctest */,
+				F6D0FDED22835B9C007904AC /* MNISTDigitRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6D0FDD022835B9B007904AC /* MNISTDigitRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0FDFF22835BC9007904AC /* MNIST.mlmodel */,
+				F6D0FDD122835B9B007904AC /* AppDelegate.swift */,
+				F6D0FDD322835B9B007904AC /* ViewController.swift */,
+				F6D0FE0122835C45007904AC /* DrawView.swift */,
+				F6D0FDD522835B9B007904AC /* Main.storyboard */,
+				F6D0FDD822835B9C007904AC /* Assets.xcassets */,
+				F6D0FDDA22835B9C007904AC /* LaunchScreen.storyboard */,
+				F6D0FDDD22835B9C007904AC /* Info.plist */,
+			);
+			path = MNISTDigitRecognition;
+			sourceTree = "<group>";
+		};
+		F6D0FDE522835B9C007904AC /* MNISTDigitRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0FDE622835B9C007904AC /* MNISTDigitRecognitionTests.swift */,
+				F6D0FDE822835B9C007904AC /* Info.plist */,
+			);
+			path = MNISTDigitRecognitionTests;
+			sourceTree = "<group>";
+		};
+		F6D0FDF022835B9C007904AC /* MNISTDigitRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6D0FDF122835B9C007904AC /* MNISTDigitRecognitionUITests.swift */,
+				F6D0FDF322835B9C007904AC /* Info.plist */,
+			);
+			path = MNISTDigitRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6D0FDCD22835B9B007904AC /* MNISTDigitRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D0FDF622835B9C007904AC /* Build configuration list for PBXNativeTarget "MNISTDigitRecognition" */;
+			buildPhases = (
+				F6D0FDCA22835B9B007904AC /* Sources */,
+				F6D0FDCB22835B9B007904AC /* Frameworks */,
+				F6D0FDCC22835B9B007904AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MNISTDigitRecognition;
+			productName = MNISTDigitRecognition;
+			productReference = F6D0FDCE22835B9B007904AC /* MNISTDigitRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6D0FDE122835B9C007904AC /* MNISTDigitRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D0FDF922835B9C007904AC /* Build configuration list for PBXNativeTarget "MNISTDigitRecognitionTests" */;
+			buildPhases = (
+				F6D0FDDE22835B9C007904AC /* Sources */,
+				F6D0FDDF22835B9C007904AC /* Frameworks */,
+				F6D0FDE022835B9C007904AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D0FDE422835B9C007904AC /* PBXTargetDependency */,
+			);
+			name = MNISTDigitRecognitionTests;
+			productName = MNISTDigitRecognitionTests;
+			productReference = F6D0FDE222835B9C007904AC /* MNISTDigitRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6D0FDEC22835B9C007904AC /* MNISTDigitRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6D0FDFC22835B9C007904AC /* Build configuration list for PBXNativeTarget "MNISTDigitRecognitionUITests" */;
+			buildPhases = (
+				F6D0FDE922835B9C007904AC /* Sources */,
+				F6D0FDEA22835B9C007904AC /* Frameworks */,
+				F6D0FDEB22835B9C007904AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6D0FDEF22835B9C007904AC /* PBXTargetDependency */,
+			);
+			name = MNISTDigitRecognitionUITests;
+			productName = MNISTDigitRecognitionUITests;
+			productReference = F6D0FDED22835B9C007904AC /* MNISTDigitRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6D0FDC622835B9B007904AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "An Tran";
+				TargetAttributes = {
+					F6D0FDCD22835B9B007904AC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					F6D0FDE122835B9C007904AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F6D0FDCD22835B9B007904AC;
+					};
+					F6D0FDEC22835B9C007904AC = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F6D0FDCD22835B9B007904AC;
+					};
+				};
+			};
+			buildConfigurationList = F6D0FDC922835B9B007904AC /* Build configuration list for PBXProject "MNISTDigitRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6D0FDC522835B9B007904AC;
+			productRefGroup = F6D0FDCF22835B9B007904AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6D0FDCD22835B9B007904AC /* MNISTDigitRecognition */,
+				F6D0FDE122835B9C007904AC /* MNISTDigitRecognitionTests */,
+				F6D0FDEC22835B9C007904AC /* MNISTDigitRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6D0FDCC22835B9B007904AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0FDDC22835B9C007904AC /* LaunchScreen.storyboard in Resources */,
+				F6D0FDD922835B9C007904AC /* Assets.xcassets in Resources */,
+				F6D0FDD722835B9B007904AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D0FDE022835B9C007904AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D0FDEB22835B9C007904AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6D0FDCA22835B9B007904AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0FE0022835BC9007904AC /* MNIST.mlmodel in Sources */,
+				F6D0FDD422835B9B007904AC /* ViewController.swift in Sources */,
+				F6D0FE0222835C45007904AC /* DrawView.swift in Sources */,
+				F6D0FDD222835B9B007904AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D0FDDE22835B9C007904AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0FDE722835B9C007904AC /* MNISTDigitRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6D0FDE922835B9C007904AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D0FDF222835B9C007904AC /* MNISTDigitRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6D0FDE422835B9C007904AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6D0FDCD22835B9B007904AC /* MNISTDigitRecognition */;
+			targetProxy = F6D0FDE322835B9C007904AC /* PBXContainerItemProxy */;
+		};
+		F6D0FDEF22835B9C007904AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6D0FDCD22835B9B007904AC /* MNISTDigitRecognition */;
+			targetProxy = F6D0FDEE22835B9C007904AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6D0FDD522835B9B007904AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D0FDD622835B9B007904AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6D0FDDA22835B9C007904AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6D0FDDB22835B9C007904AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6D0FDF422835B9C007904AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6D0FDF522835B9C007904AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6D0FDF722835B9C007904AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = MNISTDigitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.MNISTDigitRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6D0FDF822835B9C007904AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = MNISTDigitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.MNISTDigitRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6D0FDFA22835B9C007904AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = MNISTDigitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.MNISTDigitRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNISTDigitRecognition.app/MNISTDigitRecognition";
+			};
+			name = Debug;
+		};
+		F6D0FDFB22835B9C007904AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = MNISTDigitRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.MNISTDigitRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MNISTDigitRecognition.app/MNISTDigitRecognition";
+			};
+			name = Release;
+		};
+		F6D0FDFD22835B9C007904AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = MNISTDigitRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.MNISTDigitRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MNISTDigitRecognition;
+			};
+			name = Debug;
+		};
+		F6D0FDFE22835B9C007904AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F8866H6R9;
+				INFOPLIST_FILE = MNISTDigitRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tba.apps.MNISTDigitRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MNISTDigitRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6D0FDC922835B9B007904AC /* Build configuration list for PBXProject "MNISTDigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0FDF422835B9C007904AC /* Debug */,
+				F6D0FDF522835B9C007904AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D0FDF622835B9C007904AC /* Build configuration list for PBXNativeTarget "MNISTDigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0FDF722835B9C007904AC /* Debug */,
+				F6D0FDF822835B9C007904AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D0FDF922835B9C007904AC /* Build configuration list for PBXNativeTarget "MNISTDigitRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0FDFA22835B9C007904AC /* Debug */,
+				F6D0FDFB22835B9C007904AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6D0FDFC22835B9C007904AC /* Build configuration list for PBXNativeTarget "MNISTDigitRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6D0FDFD22835B9C007904AC /* Debug */,
+				F6D0FDFE22835B9C007904AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6D0FDC622835B9B007904AC /* Project object */;
+}
